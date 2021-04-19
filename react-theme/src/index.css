@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: 'Pacifico', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: 'Pacifico', cursive;
+  
+
+}
+.lightTheme {
+  background-color: white;
+  color: black;
+  font-family: 'Pacifico', cursive;
+ 
+
+}
+.lightThemeMain {
+  background-color: white;
+
+}
+.darkTheme {
+  background-color: black;
+  color: white;
+  font-family: 'Pacifico', cursive;
+
+}
+.darkThemeMain {
+  background-color: black;
+}
+.watermelonTheme {
+  background-color: palevioletred;
+  color: green;
+  font-family: 'Pacifico', cursive;
+}
+.watermelonThemeMain {
+  background-color: red;
+}
+.skyTheme {
+  background-color: lightskyblue;
+  color: darkblue;
+  font-family: 'Pacifico', cursive;
+}
+.skyThemeMain {
+  background-color: lightskyblue;
+}
+#navbar {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  height: 75px;
+}
+#navbar li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+#navbar li:hover {
+  color: goldenrod;
+  cursor: pointer;
+}
+#main {
+  padding: 23px;
+  text-align: center;
+}
+select {
+  width: 250px;
+  padding: 10px;  
+  margin: 75px auto 25px;
+  font-size: 15px;
+  font-weight: bold;
+}
+button {
+  padding: 10px;
+  margin: 100px auto;
+  border-radius: 12px;
+  font-size: 22px;
+  font-weight: bold;
+}
+button:hover {
+  box-shadow: 10px 10px 15px 
+  greenyellow;
+}
+#footer {
+  box-shadow: 5px 5px 15px greenyellow;
+  text-align: center;
+  height: 75px;
+  padding: 10px;
+  box-sizing: border-box;
+  
+}
