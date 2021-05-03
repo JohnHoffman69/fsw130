@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: whitesmoke;
+    cursor: crosshair;
+    
+}
+
+.header {
+    background-color: goldenrod;
+    font-size: 24px;
+    margin: 10px;
+    border: thick solid black;
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.title {
+    font-size: 100px;
+    float: center;
+    margin: 15px;
+    
+}
+
+.image {
+    border: thick solid black;
+    margin: 15px;
+    height: 200px;
+}
+
+.image:hover {
+    box-shadow: 3px 4px 10px goldenrod;
+}
+
+.button {
+    border: thin solid black;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.button:hover {
+    box-shadow: 3px 4px 8px green;
+}
+
+.timer {
+    padding: 20px;
+    margin: 55px;
+    border: thick solid black;
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+}
+
+.time {
+    font-size: 43px;
+    margin: 5px;
+    border: thick solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.laps:hover {
+    box-shadow: 3px 4px 8px green;;
+
+}
+
+.lapData {
+    margin: 20px;
+}
