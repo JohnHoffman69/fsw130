@@ -1,0 +1,27 @@
+button {
+    outline: none;
+    border: none;
+    padding: 9px 24px;
+    border-radius: 9999px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: goldenrod;
+}
+
+.goldendrod-button {    
+    box-shadow: 0px 3px 0px rgba(0,0,0, 0.3);
+
+}
+
+:hover {
+    background-color: purple;
+  }
+
+.goldendrod-button {
+    background: linear-gradient(to bottom, goldenrod, goldenrod);
+    color: #f6ffe0;
+    box-shadow: 0px 3px 0px rgba(0,0,0, 0.3);
+}
+
+

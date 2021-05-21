@@ -1,0 +1,8 @@
+.card {
+    background-color: goldenrod;
+    display: inline-block;
+    min-height: 250px;
+    padding: 35px 32px;
+    margin-top: 23px;
+    box-shadow: 4px 6px 0px rgba(0,0,0,0.3);
+}
